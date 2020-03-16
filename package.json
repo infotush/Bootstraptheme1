@@ -4,9 +4,10 @@
   "description": "This is a bootstrap boiler plate",
   "main": "index.js",
   "dependencies": {
-    "popper.js": "^1.16.1",
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
-    "bootstrap": "^4.4.1"
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "node-sass": "^4.13.1"
@@ -15,5 +16,13 @@
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Tushar Shrivastava",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infotush/Bootstraptheme1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/infotush/Bootstraptheme1/issues"
+  },
+  "homepage": "https://github.com/infotush/Bootstraptheme1#readme"
 }
